@@ -56,7 +56,7 @@ const Login = () =>{
             <div className="background-image absolute">
             <img  src={BACKGROUND_IMAGE} alt="backgroundImage"></img>
             </div>
-            <form className="absolute bg-black w-3/12 p-12 my-36 left-0 right-0 mx-auto text-white rounded-md" onSubmit={(e) => {e.preventDefault();}}>
+            <form className="absolute bg-black w-3/12 p-12 my-36 left-0 right-0 mx-auto text-white rounded-md bg-opacity-70" onSubmit={(e) => {e.preventDefault();}}>
                 <h1 className="font-bold text-3xl py-4">{isSignedIn? "Sign in" : "Sign Up"}</h1>
                 <input ref={email} type="text" placeholder="Email address" className="p-2 my-2 w-full text-black"></input>
                 { !isSignedIn && <input type="text" placeholder="Full name" className="p-2 my-2 w-full text-black"></input>  }

@@ -11,3 +11,5 @@ export const nowPlayingOptions = {
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4ZWFiZTY0MzZiNzE2N2ZkYzViNjViMDcwYjIzMjQ1MiIsInN1YiI6IjY2MGQ0M2I4YTg4NTg3MDE2MmU2OTIyNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.09M_FcVgQH5uLpH9MXW2u4ed81eLQ8VBeeTZRIUQbJo'
     }
   };
+
+  export const IMG_URL = 'https://image.tmdb.org/t/p/w500';

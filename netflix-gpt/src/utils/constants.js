@@ -13,3 +13,18 @@ export const nowPlayingOptions = {
   };
 
   export const IMG_URL = 'https://image.tmdb.org/t/p/w500';
+
+  export const supportedLanguages = [
+    {
+      identifier: "en",
+      name: "English"
+    },
+    {
+      identifier: "tl",
+      name: "Telugu"
+    },
+    {
+      identifier: "ml",
+      name: "Malayalam"
+    }
+  ]

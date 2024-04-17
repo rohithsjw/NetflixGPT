@@ -28,3 +28,5 @@ export const nowPlayingOptions = {
       name: "Malayalam"
     }
   ];
+
+  export const GPT_KEY = "sk-proj-T6enBUFp4H49I6cft0hCT3BlbkFJ6Uc2Yv4QBZxfG1JGnqG6";

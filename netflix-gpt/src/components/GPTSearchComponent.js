@@ -5,8 +5,8 @@ import GPTSearch from "./GPTSearch";
 const GPTSearchComponent = ()=>{
 
     return <div>
-         <div className="background-image absolute">
-            <img  src={BACKGROUND_IMAGE} alt="backgroundImage"></img>
+         <div className="fixed -z-10">
+            <img  src={BACKGROUND_IMAGE} alt="backgroundImage" className=" w-full"></img>
             </div>
         <GPTSearch />
         <GPTMovieSuggestion />

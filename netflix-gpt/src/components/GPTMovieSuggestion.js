@@ -5,10 +5,8 @@ const GPTMovieSuggestion = () =>{
     const gptMoviesRes = useSelector(store=> store.GPT.gptMovies);
     
     return  (
-            gptMoviesRes && <div className="bg-black">
-            <div className="relative z-20">
+            gptMoviesRes && <div className="bg-black relative z-20 top-3 m-3">
             <MovieList listTitle={"Results"} movies = {gptMoviesRes}/>
-            </div>
             </div>
         )
 };
